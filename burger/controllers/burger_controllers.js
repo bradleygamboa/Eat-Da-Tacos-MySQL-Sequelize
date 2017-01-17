@@ -1,0 +1,1 @@
+// just placed js directing in html
