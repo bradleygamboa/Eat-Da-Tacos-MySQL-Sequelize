@@ -1,6 +1,6 @@
 'use strict';
 module.exports = function(sequelize, DataTypes) {
-  var FortuneTeller = sequelize.define('FortuneTeller', {
+  var burger = sequelize.define('burger', {
     task: DataTypes.STRING
   }, {
     classMethods: {
@@ -9,5 +9,5 @@ module.exports = function(sequelize, DataTypes) {
       }
     }
   });
-  return FortuneTeller;
+  return burger;
 };
